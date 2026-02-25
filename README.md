@@ -1,9 +1,7 @@
+```markdown
 # 💸 App de Organização de Finanças Pessoais com Vibe Coding
 
-PRD refinado no Copilot Web:
-```
-# PRD – Balanço Fácil
-
+``` 
 ## Contexto
 Aplicativo de Organização de Finanças Pessoais baseado em conversas em linguagem natural.  
 Objetivo: simplificar o controle financeiro, eliminando formulários complexos e planilhas, e garantindo acessibilidade universal.
@@ -23,7 +21,7 @@ A solução proposta é uma experiência conversacional com recomendações auto
 3. Definir e acompanhar metas financeiras.
 4. Receber dicas de economia do “Agente Financeiro”.
 5. Visualizar relatórios simples e personalizados.
-6. Design Universal aplicado em toda a solução, garantindo:
+6. Design Universal aplicado em toda a solução:
    - Contraste adequado e fontes legíveis.
    - Compatibilidade com leitores de tela.
    - Navegação intuitiva e acessível.
@@ -33,72 +31,66 @@ A solução proposta é uma experiência conversacional com recomendações auto
 - Notificações inteligentes: lembretes amigáveis sobre metas e gastos.
 - Modo offline básico: registro de transações mesmo sem internet, com sincronização posterior.
 - Exportação simples: relatórios em formatos acessíveis (texto e gráfico).
-- Personalização de linguagem: escolha do tom do Agente Financeiro (mais formal ou mais descontraído).
+- Personalização de linguagem: escolha do tom do Agente Financeiro (formal ou descontraído).
 - Sistema de senha segura: mínimo de 8 caracteres, incluindo numerais e caracteres especiais.
 - Cadastro intuitivo: fluxo simples e rápido para novos usuários.
-- Design inteligente e universal, inspirado em soluções como Nubank.
+- Design inspirado em soluções como Nubank.
 
 ## Entregável da IA
 - Plano de MVP com telas principais (chat, metas, relatórios).
 - Recursos mínimos necessários (NLP, categorização, relatórios acessíveis).
 - Esboço de validação inicial com testes inclusivos (usuários diversos, feedback sobre acessibilidade).
-- Linguagem educativa, alegre e acessível, em português.
-```
+- Linguagem educativa, alegre e acessível em português.
 
-Interaçoes com o Lovable: 
+---
+
+## Interações com o Lovable
+Prompt inicial:
 > Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirement Document) {PRD}
 
-> esqueceu das funcionalidades: Funcionalidades Extras -
-[ Notificações inteligentes: lembretes amigáveis sobre metas e gastos.
-Exportação simples: relatórios em formatos acessíveis (texto e gráfico).
-Personalização de linguagem: escolha do tom do Agente Financeiro (mais formal ou mais descontraído).
-Sistema de senha segura: mínimo de 8 caracteres, incluindo numerais e caracteres especiais.
-Cadastro intuitivo: fluxo simples e rápido para novos usuários. - Design inteligente e universal, inspirado em soluções como Nubank, priorizando clareza, acessibilidade e experiência fluida]
+Ajustes solicitados:
+> Inclusão das funcionalidades extras: notificações inteligentes, exportação simples, personalização de linguagem, sistema de senha segura, cadastro intuitivo e design inspirado em Nubank.
 
-Resultado Final no Lovable: https://saving-sprite-guide.lovable.app/
+**Resultado Final no Lovable:**  
+[Link para o protótipo](https://saving-sprite-guide.lovable.app/)
 
 <img width="1719" height="899" alt="image" src="https://github.com/user-attachments/assets/4fb71a22-7862-45fd-b04e-a2b111578c59" />
 
-# Balanço Fácil – Funcionalidades
+---
 
-## Funcionalidades Principais
-- Registro de gastos via chat em linguagem natural, sem formulários complexos.  
-- Classificação automática de transações, organizando despesas por categoria (alimentação, moradia, transporte, lazer, café etc.).  
-- Metas financeiras: definir, acompanhar e visualizar progresso (ex.: fundo de emergência, viagem de férias).  
-- Relatórios simples e personalizados, com gráficos intuitivos:
-  - Gastos da semana (barra por dia).  
-  - Distribuição por categoria (pizza/donut).  
-- Agente Financeiro: dicas automáticas de economia e suporte educativo.  
-- Design Universal aplicado em toda a solução:
-  - Contraste adequado e fontes legíveis.  
-  - Compatibilidade com leitores de tela.  
-  - Navegação intuitiva e acessível.  
-  - Linguagem clara e inclusiva.  
+## Funcionalidades do App
 
-## Funcionalidades Extras
-- Notificações inteligentes: lembretes amigáveis sobre metas e gastos.  
-- Modo offline básico: registro de transações sem internet, com sincronização posterior.  
-- Exportação acessível: relatórios em texto e gráficos.  
-- Personalização de linguagem: escolha do tom do Agente Financeiro (formal ou descontraído).  
+### Principais
+- Registro de gastos via chat em linguagem natural.  
+- Classificação automática de transações por categoria.  
+- Metas financeiras: definir, acompanhar e visualizar progresso.  
+- Relatórios simples e personalizados (gastos semanais, distribuição por categoria).  
+- Agente Financeiro com dicas automáticas de economia.  
+- Design Universal: contraste adequado, fontes legíveis, compatibilidade com leitores de tela, navegação intuitiva e linguagem inclusiva.  
 
-## Painel (conforme protótipo)
-- Resumo mensal:
-  - Saldo atual com variação percentual.  
-  - Receitas e despesas do mês com indicadores de aumento/redução.  
-  - Metas ativas com progresso em %.  
-- Visualização semanal de gastos: gráfico de barras por dia (Seg a Dom).  
-- Distribuição por categoria: gráfico em donut (alimentação, moradia, transporte, lazer).  
-- Últimas transações: lista detalhada com valores, categorias e data (ex.: supermercado, café da manhã).  
-- Progresso das metas: barras de acompanhamento com valores acumulados e percentuais.  
-- Menu lateral intuitivo: acesso rápido a Painel, Chat, Metas, Relatórios e opção de sair.  
+### Extras
+- Notificações inteligentes sobre metas e gastos.  
+- Modo offline básico com sincronização posterior.  
+- Exportação acessível em texto e gráficos.  
+- Personalização de linguagem (formal ou descontraído).  
 
-## Entregáveis da IA
-- Plano de MVP com telas principais (chat, metas, relatórios).  
-- Recursos mínimos necessários: NLP, categorização automática, relatórios acessíveis.  
-- Validação inicial inclusiva: testes com usuários diversos e feedback sobre acessibilidade.  
-- Linguagem educativa, alegre e acessível em português.  
+### Painel (Protótipo)
+- Resumo mensal: saldo, receitas, despesas e metas ativas.  
+- Visualização semanal de gastos (gráfico de barras).  
+- Distribuição por categoria (gráfico em donut).  
+- Últimas transações detalhadas com valores e categorias.  
+- Progresso das metas com percentuais.  
+- Menu lateral: Painel, Chat, Metas, Relatórios e opção de sair.  
+
+---
+
 ## Reflexão
 
-###  O que funcionou bem? 
-### O que não funcionou como o esperado?  
-### O que aprendeu sobre conversar com IAs?
+### O que funcionou bem
+O uso do Copilot para refinamento trouxe clareza ao PRD.  
+
+### O que não funcionou como esperado
+O Lovable não permitiu mais interações por questões de crédito, limitando o processo.  
+
+### O que aprendi sobre conversar com IAs
+É basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você fornece, melhor é a interação.  
