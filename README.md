@@ -47,6 +47,7 @@ A solução proposta é uma experiência conversacional com recomendações auto
 
 Interaçoes com o Lovable: 
 > Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirement Document) {PRD}
+
 > esqueceu das funcionalidades: Funcionalidades Extras -
 [ Notificações inteligentes: lembretes amigáveis sobre metas e gastos.
 Exportação simples: relatórios em formatos acessíveis (texto e gráfico).
@@ -55,6 +56,7 @@ Sistema de senha segura: mínimo de 8 caracteres, incluindo numerais e caractere
 Cadastro intuitivo: fluxo simples e rápido para novos usuários. - Design inteligente e universal, inspirado em soluções como Nubank, priorizando clareza, acessibilidade e experiência fluida]
 
 Resultado Final no Lovable: https://saving-sprite-guide.lovable.app/
+
 <img width="1719" height="899" alt="image" src="https://github.com/user-attachments/assets/4fb71a22-7862-45fd-b04e-a2b111578c59" />
 
 # Balanço Fácil – Funcionalidades
